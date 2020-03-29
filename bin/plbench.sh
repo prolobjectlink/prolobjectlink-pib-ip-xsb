@@ -6,4 +6,4 @@ then
 else
   LIB_PATH="$SCRIPT_PATH/lib/*"
 fi
-$SCRIPT_PATH/jre/bin/java -classpath "$LIB_PATH" org.prolobjectlink.prolog.benchmark.BenchmarkRunner ${1+"$@"}
+$SCRIPT_PATH/jre/bin/java -classpath "$LIB_PATH" io.github.prolobjectlink.prolog.benchmark.BenchmarkRunner ${1+"$@"}
